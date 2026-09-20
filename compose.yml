@@ -11,7 +11,7 @@ services:
       - mynetwork
 
   application:
-    image: amulyapendem /automation:app
+    image: amulyapendem/automation:app
     ports:
       - "1111:8080"
     deploy:
